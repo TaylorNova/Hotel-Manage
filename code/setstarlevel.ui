@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setstarlevel</class>
+ <widget class="QDialog" name="setstarlevel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>评定星级</string>
+  </property>
+  <widget class="QTableWidget" name="view">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>511</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>房型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>定价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>优惠</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>图片</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>340</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>评定星级</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>340</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>五星级</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>四星级</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>三星级</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>二星级</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>一星级</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>420</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>420</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

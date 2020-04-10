@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>backmoncheck</class>
+ <widget class="QDialog" name="backmoncheck">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>394</width>
+    <height>288</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>退款受理</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退款用户</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退款金额</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cusphonenum">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;方正字迹-典雅楷体简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totalmoney">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>180</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>确认受理退款?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>120</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

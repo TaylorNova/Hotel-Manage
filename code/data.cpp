@@ -1,0 +1,53 @@
+#include "data.h"
+#include "all_headers_nedded.h"
+#include "room.h"
+
+vector <Customer> Data::customers(100);
+vector <Manager> Data::managers(100);
+vector <Hotel> Data::hotels(100);
+vector <Order> Data::orders(100);
+vector <Room> Data::rooms(100);
+vector <People> Data::platform(1);
+vector <Hotel> Data::hotel_plat(100);
+vector <Record> Data::record(1);
+vector <int> Data::arr(100);
+vector <Match> Data::matchs(100);
+vector <Evalue> Data::evalues(100);
+int Data::customers_num = 0;
+int Data::managers_num = 0;
+int Data::hotels_num = 0;
+int Data::orders_num = 0;
+int Data::rooms_num = 0;
+int Data::sign_num = 0;
+int Data::matchs_num = 0;
+int Data::evalues_num = 0;
+int Data::row_check = 0;
+int Data::row_check_2 = 0;
+int Data::row_check_3 = 0;
+int Data::row_check_4 = 0;
+int Data::row_check_5 = 0;
+int Data::row_check_6 = 0;
+int Data::hotel_plat_num = 0;
+int Data::sign_num_2 = 0;
+int Data::sign_num_3 = 0;
+int Data::sign_num_4 = 0;
+int Data::sign_num_5 = 0;
+int Data::sign_num_6 = 0;
+int Data::sign_num_7 = 0;
+int Data::sign_num_8 = 0;
+int Data::sign_num_9 = 0;
+int Data::sign_num_10 = 0;
+int Data::sign_num_11 = 0;
+int Data::sign_num_12 = 0;
+int Data::sign_num_13 = 0;
+int Data::sign_num_14 = 0;
+int Data::sign_num_15 = 0;
+int Data::sign_num_16 = 0;
+int Data::choose_day = 0;
+int Data::choose_roomnum = 0;
+int Data::total_money = 0;
+QString Data::file_name = "";
+QString Data::file_name_2 = "";
+QString Data::current_user = "";
+QString Data::choose_hotel = "";
+QString Data::manager_hotel = "";

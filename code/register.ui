@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Register</class>
+ <widget class="QDialog" name="Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>553</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>注册</string>
+  </property>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang4.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(213, 108, 15)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang6.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(244, 234, 41)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang7.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(153, 94, 30)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang4.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(213, 108, 15)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang6.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(244, 234, 41)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang7.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(153, 94, 30)
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phonenum">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordcon">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>用户名（手机）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>确认密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>用户类型</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="currentText">
+    <string>顾客</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>顾客</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>管理员</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>酒店</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_p">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>100</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请输入11位手机号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_w">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>160</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>长度不小于7位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_rw">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>220</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>两次密码输入不一致</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_phone">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>100</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请输入手机号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_password">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>160</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请输入密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_passwordcon">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>220</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请再次输入密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>所在酒店</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="manager_hotel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>270</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请填写酒店名</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Register</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>344</x>
+     <y>313</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>453</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

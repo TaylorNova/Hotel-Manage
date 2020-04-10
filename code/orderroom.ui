@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>orderroom</class>
+ <widget class="QDialog" name="orderroom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>预定</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>房型</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>定价</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>优惠</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>图片</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="type">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="price">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>70</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;方正字迹-典雅楷体简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="discount">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>110</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="picture">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>251</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选择入住时间</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>240</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>从</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>240</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>到</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="from">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>240</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="to">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>240</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="opentime">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>240</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/an1.png);
+}
+QPushButton:hover
+{
+border-image: url(:/Image/an2.png);
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/an3.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="opentime_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>240</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/an1.png);
+}
+QPushButton:hover
+{
+border-image: url(:/Image/an2.png);
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/an3.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>430</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认并支付</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>入住人</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>380</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>手机号码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="people">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>340</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phonenum">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>380</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>430</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>数量</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="roomnum">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>300</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTimeEdit::up-button,QDoubleSpinBox::up-button,QSpinBox::up-button {subcontrol-origin:border;
+    subcontrol-position:right;
+    image: url(:/Image/right.png);
+    width: 12px;
+    height: 20px;       
+}
+QTimeEdit::down-button,QDoubleSpinBox::down-button,QSpinBox::down-button {subcontrol-origin:border;
+    subcontrol-position:left;
+    image: url(:/Image/left.png);
+    width: 12px;
+    height: 20px;
+}
+QTimeEdit::up-button:pressed,QDoubleSpinBox::up-button:pressed,QSpinBox::up-button:pressed{subcontrol-origin:border;
+    subcontrol-position:right;
+    image: url(:/Image/right1.png);
+    width: 12px;
+    height: 20px;       
+}
+  
+QTimeEdit::down-button:pressed,QDoubleSpinBox::down-button:pressed,QSpinBox::down-button:pressed,QSpinBox::down-button:pressed{
+    subcontrol-position:left;
+    image: url(:/Image/left1.png);
+    width: 12px;
+    height: 20px;
+}</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>296</width>
+     <height>236</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="calendarWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>270</y>
+     <width>296</width>
+     <height>236</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>余量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lastnum">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>150</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;方正字迹-典雅楷体简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>描述</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="description">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>190</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tip">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>380</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>手机号不规范</string>
+   </property>
+  </widget>
+  <zorder>tip</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>type</zorder>
+  <zorder>price</zorder>
+  <zorder>discount</zorder>
+  <zorder>picture</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>from</zorder>
+  <zorder>to</zorder>
+  <zorder>opentime</zorder>
+  <zorder>opentime_2</zorder>
+  <zorder>confirm</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_9</zorder>
+  <zorder>people</zorder>
+  <zorder>phonenum</zorder>
+  <zorder>cancel</zorder>
+  <zorder>label_10</zorder>
+  <zorder>roomnum</zorder>
+  <zorder>calendarWidget</zorder>
+  <zorder>calendarWidget_2</zorder>
+  <zorder>label_11</zorder>
+  <zorder>lastnum</zorder>
+  <zorder>label_12</zorder>
+  <zorder>description</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

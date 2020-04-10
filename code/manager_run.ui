@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>manager_run</class>
+ <widget class="QDialog" name="manager_run">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员</string>
+  </property>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>521</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>用户</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>房型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>总金额</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>选择</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 14pt &quot;方正经黑简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>管理订单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="look">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>350</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>查看</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pay</class>
+ <widget class="QDialog" name="pay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>149</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>支付</string>
+  </property>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认支付</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>90</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>你需要支付</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="price">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>30</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;方正字迹-典雅楷体简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>30</y>
+     <width>72</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

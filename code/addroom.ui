@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addroom</class>
+ <widget class="QDialog" name="addroom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加客房</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>房型</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>定价</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>优惠</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>余量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>图片</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="type">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>单人间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标准间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>豪华单人间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>豪华标准间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>家庭套房</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>总统套房</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="discount">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9折</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8折</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7折</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6折</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5折</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="lastnum">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTimeEdit::up-button,QDoubleSpinBox::up-button,QSpinBox::up-button {subcontrol-origin:border;
+    subcontrol-position:right;
+    image: url(:/Image/right.png);
+    width: 12px;
+    height: 20px;       
+}
+QTimeEdit::down-button,QDoubleSpinBox::down-button,QSpinBox::down-button {subcontrol-origin:border;
+    subcontrol-position:left;
+    image: url(:/Image/left.png);
+    width: 12px;
+    height: 20px;
+}
+QTimeEdit::up-button:pressed,QDoubleSpinBox::up-button:pressed,QSpinBox::up-button:pressed{subcontrol-origin:border;
+    subcontrol-position:right;
+    image: url(:/Image/right1.png);
+    width: 12px;
+    height: 20px;       
+}
+  
+QTimeEdit::down-button:pressed,QDoubleSpinBox::down-button:pressed,QSpinBox::down-button:pressed,QSpinBox::down-button:pressed{
+    subcontrol-position:left;
+    image: url(:/Image/left1.png);
+    width: 12px;
+    height: 20px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="price">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>430</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>430</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="picture">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>270</y>
+     <width>231</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="choosepic">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang13.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang15.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang16.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+   </property>
+   <property name="text">
+    <string>选择图片</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>180</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;方正清刻本悦宋简体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>描述</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="description">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

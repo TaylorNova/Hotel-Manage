@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>platform</class>
+ <widget class="QDialog" name="platform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>平台</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>681</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_1">
+    <attribute name="title">
+     <string>审核</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>641</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>酒店</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>所在城市</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>所在地区</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>选择</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="pass">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>280</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+     </property>
+     <property name="text">
+      <string>通过</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancel">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>280</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>整合</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>541</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>酒店</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>所在城市</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>所在地区</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>选择</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="sort">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>250</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+     </property>
+     <property name="text">
+      <string>设定星级</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancel_2">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>250</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+border-image: url(:/Image/kuang8.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(96, 14, 89)
+}
+QPushButton:hover
+{
+border-image: url(:/Image/kuang9.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(148, 17, 137)
+}
+QPushButton:pressed
+{
+border-image: url(:/Image/kuang10.png);
+font: 100 11pt &quot;方正清刻本悦宋简体&quot;;
+color:rgb(86, 11, 80)
+}</string>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
